@@ -1,20 +1,76 @@
 {
-	"transactions": [
-		{
-			"id": 1,
-			"description": "Desenvolvimento de site",
-			"type": "income",
-			"category": "Venda",
-			"price": 14000,
-			"createdAt": "2024-12-14T20:57:00.476Z"
-		},
-		{
-			"id": 2,
-			"description": "Hamburguer",
-			"type": "outcome",
-			"category": "Alimentação",
-			"price": 50,
-			"createdAt": "2024-12-10T20:57:00.476Z"
-		}
-	]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-12-14T20:57:00.476Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-12-10T20:57:00.476Z"
+    },
+    {
+      "description": "fasdfa",
+      "price": 23,
+      "category": "asdfasdf",
+      "type": "income",
+      "createdAt": "2024-12-14T23:28:30.657Z",
+      "id": 3
+    },
+    {
+      "description": "aaaaaa",
+      "price": 41,
+      "category": "afsdfasdf",
+      "type": "outcome",
+      "createdAt": "2024-12-14T23:34:22.516Z",
+      "id": 4
+    },
+    {
+      "description": "teste",
+      "price": 4,
+      "category": "123asdf",
+      "type": "outcome",
+      "createdAt": "2024-12-14T23:41:27.225Z",
+      "id": 5
+    },
+    {
+      "description": "asdfasdf",
+      "price": 23,
+      "category": "sadfasdf",
+      "type": "income",
+      "createdAt": "2024-12-14T23:42:14.711Z",
+      "id": 6
+    },
+    {
+      "description": "teste",
+      "price": 5,
+      "category": "aaaa",
+      "type": "income",
+      "createdAt": "2024-12-15T11:53:44.950Z",
+      "id": 7
+    },
+    {
+      "description": "teste",
+      "price": 1231,
+      "category": "sadfasdfasdf",
+      "type": "income",
+      "createdAt": "2024-12-15T11:55:06.918Z",
+      "id": 8
+    },
+    {
+      "description": "Blablabla",
+      "price": 100,
+      "category": "vava",
+      "type": "outcome",
+      "createdAt": "2024-12-15T13:25:05.526Z",
+      "id": 9
+    }
+  ]
 }

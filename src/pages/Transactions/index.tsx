@@ -6,12 +6,14 @@ import {
 	TransactionsTable,
 } from "./styles";
 import { SearchForm } from "./SearchForm";
-import { useContext } from "react";
 import { TransactionContext } from "@/contexts/TransactionContext";
 import { dateFormatter, priceFormatter } from "@/utils/formatter";
+import { useContextSelector } from "use-context-selector";
 
 export function Transactions() {
-	const { transactions } = useContext(TransactionContext);
+	const transactions = useContextSelector(TransactionContext, (context) => {
+		return context.transactions;
+	});
 
 	return (
 		<div>
